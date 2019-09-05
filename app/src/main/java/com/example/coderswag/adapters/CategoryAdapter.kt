@@ -36,7 +36,7 @@ class CategoryAdapter(context: Context, categories: List<Category>): BaseAdapter
     }
 
     override fun getItemId(position: Int): Long {
-        return 0
+        return 0 // we don't need this so just giving it an arbitrary return value
     }
 
     override fun getCount(): Int {
